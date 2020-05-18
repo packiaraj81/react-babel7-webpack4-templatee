@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(224, 220, 209);
+  color: black;
+}
+
+.app {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: blue($color: #000000);
+
+  & .app-header {
+    height: 350px;
+    width: inherit;
+    object-fit: cover;
+  }
+}
